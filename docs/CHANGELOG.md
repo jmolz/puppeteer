@@ -2,6 +2,34 @@
 
 Combined changelog for puppeteer and puppeteer-core.
 
+## [25.2.0](https://github.com/puppeteer/puppeteer/compare/puppeteer-v25.1.0...puppeteer-v25.2.0) (2026-05-29)
+
+### ♻️ Chores
+
+- **puppeteer:** Synchronize puppeteer versions
+
+### Dependencies
+
+- The following workspace dependencies were updated
+  - dependencies
+    - puppeteer-core bumped from 25.1.0 to 25.2.0
+
+### 🎉 Features
+
+- allow extensions to run over websockets ([#15059](https://github.com/puppeteer/puppeteer/issues/15059)) ([b84d8a1](https://github.com/puppeteer/puppeteer/commit/b84d8a18584fcf54670fff169408b8ac712d8c06))
+
+### 🛠️ Fixes
+
+- **webmcp:** invalidate webmcp tools on context destruction ([#15068](https://github.com/puppeteer/puppeteer/issues/15068)) ([8e9c0fa](https://github.com/puppeteer/puppeteer/commit/8e9c0fa4ac4054f3f31868f17761c73335229306))
+
+### ⚡ Performance
+
+- optimize `headersArray` iteration in HTTPRequest ([#15004](https://github.com/puppeteer/puppeteer/issues/15004)) ([eb95798](https://github.com/puppeteer/puppeteer/commit/eb9579844f071c2aa8ad1a0c19443b618fac63b7))
+
+### 🏗️ Refactor
+
+- sync accessing debugger ([#15066](https://github.com/puppeteer/puppeteer/issues/15066)) ([9046239](https://github.com/puppeteer/puppeteer/commit/904623947f270e50243c3f7fb74f4aef3245c22d))
+
 ## [25.1.0](https://github.com/puppeteer/puppeteer/compare/puppeteer-v25.0.4...puppeteer-v25.1.0) (2026-05-26)
 
 ### 🎉 Features
